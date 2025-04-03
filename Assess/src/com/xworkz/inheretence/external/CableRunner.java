@@ -1,6 +1,9 @@
 package com.xworkz.inheretence.external;
 
-    public class CableRunner {
+import com.xworkz.inheretence.internal.Cable;
+import com.xworkz.inheretence.internal.DigitalCable;
+
+public class CableRunner {
         public static void main(String[] args) {
 
             Cable cable = new DigitalCable();
