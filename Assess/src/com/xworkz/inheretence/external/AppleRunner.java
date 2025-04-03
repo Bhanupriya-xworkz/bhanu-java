@@ -1,7 +1,8 @@
 package com.xworkz.inheretence.external;
 
-import com.xworkz.inheritance.external.iPhone;
-import com.xworkz.inheritance.external.AppleDevice;
+import com.xworkz.inheretence.internal.AppleDevice;
+import com.xworkz.inheretence.internal.iPhone;
+
 
     public class AppleRunner {
         public static void main(String[] args) {

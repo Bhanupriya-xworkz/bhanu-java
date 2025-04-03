@@ -3,7 +3,7 @@ package com.xworkz.inheretence.internal;
     public class iPhone extends AppleDevice {
 
         public iPhone() {
-            super();  // Calling the parent class constructor
+            super();
             System.out.println("iPhone constructor");
         }
 
