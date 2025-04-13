@@ -5,7 +5,7 @@ import com.xworkz.method.internal.SportsSlipper;
 
     public class SlipperRunner {
         public static void main(String[] args) {
-            // Testing the Slipper class
+
             Slipper slipper1 = new Slipper();
             slipper1.wear();
             slipper1.remove();
@@ -16,7 +16,6 @@ import com.xworkz.method.internal.SportsSlipper;
 
             System.out.println("=============");
 
-            // Testing the SportsSlipper class
             SportsSlipper sportsSlipper = new SportsSlipper();
             sportsSlipper.wear();
             sportsSlipper.remove();

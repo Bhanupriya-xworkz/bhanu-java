@@ -1,27 +1,24 @@
 package com.xworkz.method.internal;
+
     public class Icecream extends Cold {
-        public Icecream () {
+        public Icecream() {
             System.out.println("Icecream Instance created.");
         }
-
         @Override
         public void freeze() {
             System.out.println("Icecream is frozen.");
         }
-
         @Override
         public void scoop () {
             System.out.println("Icecream is scooped.");
-
         }
         @Override
         public void melt() {
             System.out.println("Icecream is melting.");
         }
-
         @Override
         public void flavorMix() {
-            System.out.println("Icecream is Mixing flavors.");
+            System.out.println("Icecream is mixing flavors.");
         }
         @Override
         public void eat() {
@@ -30,5 +27,4 @@ package com.xworkz.method.internal;
         public void Dbc() {
             System.out.println("the runner of Dbc");
         }
-
 }

@@ -1,10 +1,11 @@
 package com.xworkz.method.external;
+
 import com.xworkz.method.external.ElectricCar;
 import com.xworkz.method.internal.Car;
 
     public class CarRunner {
         public static void main(String[] args) {
-            // Testing the Car class
+
             Car car1 = new Car();
             car1.start();
             car1.stop();
@@ -15,7 +16,6 @@ import com.xworkz.method.internal.Car;
 
             System.out.println("=============");
 
-            // Testing the ElectricCar class
             ElectricCar electricCar = new ElectricCar();
             electricCar.start();
             electricCar.stop();
