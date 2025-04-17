@@ -16,4 +16,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Media stopped in VLC Player.");
         }
     }
+    @Override
+    public void mediaPlayerTip() {
+        System.out.println("Audio Player Tip: Download songs for offline listening and save data.");
+    }
 

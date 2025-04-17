@@ -12,6 +12,7 @@ public class FridgeMain {
             fridge1.cool();
             fridge2.storeFood();
             fridge3.defrost();
+            Fridge.maintenanceTips();
         }
     }
 

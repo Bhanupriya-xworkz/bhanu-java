@@ -17,3 +17,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void robotTip() {
+        System.out.println("Robot Tip: Always update software to improve task efficiency and security.");
+    }
+

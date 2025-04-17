@@ -11,6 +11,8 @@ public class RecipeManagerMain {
             recipe.viewRecipe();
             recipe.markAsCooked();
             recipe.viewRecipe();
+
+            recipeManager.recipeTip();
         }
     }
 

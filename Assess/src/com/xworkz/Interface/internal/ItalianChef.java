@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Serving Italian cuisine with garlic bread.");
         }
     }
+    @Override
+    public void cookingTips() {
+        System.out.println("Italian Chef Tip: Use fresh basil and olive oil for authentic flavor.");
+    }
 

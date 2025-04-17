@@ -9,6 +9,8 @@ public class TaskMain {
             task.startTask();
             task.completeTask();
             task.cancelTask();
+
+            task.taskTip();
         }
     }
 

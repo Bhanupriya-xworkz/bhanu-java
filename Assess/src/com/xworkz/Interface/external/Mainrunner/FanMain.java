@@ -9,6 +9,7 @@ import com.xworkz.Interface.internal.CeilingFan;
             fan1.turnOn();
             fan1.rotate();
             fan1.turnOff();
+            Fan.maintenanceTips();
         }
     }
 

@@ -16,4 +16,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Game over. Thanks for playing!");
         }
     }
+    @Override
+    public void gameTips() {
+        System.out.println("Action Game Tip: Use your power-ups wisely and keep an eye on your health bar.");
+    }
 

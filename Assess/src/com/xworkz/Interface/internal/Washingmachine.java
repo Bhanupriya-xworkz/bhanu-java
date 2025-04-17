@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Washing machine is now OFF.");
         }
     }
+    @Override
+    public void safetyTips() {
+        System.out.println("Washing Machine Tip: Don’t overload and always clean the lint filter.");
+    }
 

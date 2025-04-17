@@ -9,6 +9,8 @@ public class LightBulbMain {
             ledBulb.switchOn();
             ledBulb.adjustBrightness();
             ledBulb.switchOff();
+
+            ledBulb.energySavingTip();
         }
     }
 

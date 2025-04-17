@@ -9,6 +9,8 @@ import com.xworkz.Interface.internal.ServiceRobot;
             robot1.wakeUp();
             robot1.performTask();
             robot1.shutDown();
+
+            robot.robotTip();
         }
     }
 

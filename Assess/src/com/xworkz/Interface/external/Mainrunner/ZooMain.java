@@ -13,6 +13,8 @@ public class ZooMain {
             zoo1.setCoordinates();
             zoo2.showDetails();
             zoo3.markVisited();
+
+            zoo.zooTip();
         }
     }
 

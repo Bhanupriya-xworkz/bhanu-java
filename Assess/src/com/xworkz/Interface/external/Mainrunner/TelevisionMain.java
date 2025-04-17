@@ -9,6 +9,8 @@ import com.xworkz.Interface.internal.SmartTV;
             television1.powerOn();
             television1.streamContent();
             television1.powerOff();
+
+            tv.tvTip();
         }
     }
 

@@ -17,3 +17,8 @@ public class DigitalWatch implements Watch {
     }
 }
 
+@Override
+public void watchCareTip() {
+    System.out.println("SmartWatch Tip: Charge your smartwatch regularly and keep software updated.");
+}
+

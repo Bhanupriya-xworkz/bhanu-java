@@ -17,4 +17,9 @@ package com.xworkz.Interface.internal;
             System.out.println("Adjusting brightness to 75%.");
         }
     }
+    @Override
+    public void lightingTips() {
+        System.out.println("Smart Light Tip: Schedule your lights to turn off automatically when not in use.");
+    }
+}
 

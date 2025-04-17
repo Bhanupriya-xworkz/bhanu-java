@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void powerOn();
         void showSpecs();
         void shutdown();
+
+        default void maintenanceTips() {
+            System.out.println("General Tip: Clean your gadget regularly and keep software up-to-date.");
+        }
     }
 

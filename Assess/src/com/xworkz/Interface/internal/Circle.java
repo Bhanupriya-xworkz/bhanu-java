@@ -25,3 +25,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void displayShape() {
+        System.out.println("This is a Circle.");
+    }
+

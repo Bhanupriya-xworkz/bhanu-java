@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void melt();
         void polish();
         void checkPurity();
+
+        default void investmentTips() {
+            System.out.println("General Tip: Gold is a safe investment, but remember to diversify your portfolio.");
+        }
     }
 

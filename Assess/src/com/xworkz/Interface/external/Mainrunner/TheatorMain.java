@@ -9,6 +9,8 @@ public class TheaterMain {
         theater1.setCoordinates();
         theater2.showDetails();
         theater3.markVisited();
+
+        theater.theaterTip();
     }
 }
 

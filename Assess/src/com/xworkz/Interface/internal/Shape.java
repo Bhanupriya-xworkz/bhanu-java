@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void draw();
         void calculateArea();
         void calculatePerimeter();
+
+        default void displayShape() {
+            System.out.println("This is a shape.");
+        }
     }
 

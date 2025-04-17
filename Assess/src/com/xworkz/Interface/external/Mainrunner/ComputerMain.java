@@ -9,6 +9,7 @@ import com.xworkz.Interface.internal.Laptop;
             computer1.powerOn();
             computer1.runProgram();
             computer1.shutDown();
+            computer1.maintenanceTips();
         }
     }
 

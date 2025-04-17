@@ -17,3 +17,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void gatewayTip() {
+        System.out.println("Payment Gateway Tip: Always log and monitor transactions for suspicious activity.");
+    }
+

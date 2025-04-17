@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void slipperTip() {
+        System.out.println("Slipper Tip: Dry your rubber slippers in shade to avoid cracks.");
+    }
+

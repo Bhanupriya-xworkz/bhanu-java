@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void internetSafetyTips() {
+        System.out.println("Wi-Fi Connection Tip: Always ensure you're connected to a secure network, and use VPN for extra security.");
+    }
+

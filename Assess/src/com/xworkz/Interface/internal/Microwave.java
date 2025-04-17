@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void setTimer();
         void heatFood();
         void stopHeating();
+
+        default void microwaveTip() {
+            System.out.println("General Tip: Use microwave-safe containers only.");
+        }
     }
 

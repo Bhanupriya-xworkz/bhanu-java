@@ -12,6 +12,7 @@ public class AirpodsMain {
             airpods1.connect();
             airpods2.playSound();
             airpods3.disconnect();
+            myAirPods.batteryTips();
         }
     }
 

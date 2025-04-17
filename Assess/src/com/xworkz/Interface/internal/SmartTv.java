@@ -17,3 +17,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void tvTip() {
+        System.out.println("SmartTV Tip: Use scheduled shutdown to avoid unnecessary power usage.");
+    }
+

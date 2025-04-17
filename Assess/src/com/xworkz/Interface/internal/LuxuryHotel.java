@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Room service: Delivering gourmet meal to the room.");
         }
     }
+    @Override
+    public void hotelTips() {
+        System.out.println("Luxury Hotel Tip: Opt for a room with a view for a better experience.");
+    }
 

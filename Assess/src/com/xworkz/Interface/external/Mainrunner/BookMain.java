@@ -12,6 +12,7 @@ public class BookMain {
             book1.open();
             book2.read();
             book3.close();
+            Book.readingTips();
         }
     }
 

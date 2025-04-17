@@ -16,4 +16,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Dslr executing: preview");
         }
     }
+    @Override
+    public void cameraTips() {
+        System.out.println("Dslr Tip: Use manual mode for better control over exposure and focus.");
+    }
 

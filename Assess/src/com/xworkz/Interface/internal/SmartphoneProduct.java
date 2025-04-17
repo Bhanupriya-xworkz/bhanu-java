@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void productTip() {
+        System.out.println("Product Tip: Check the warranty period before buying electronics.");
+    }
+

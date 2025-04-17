@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void solarTip() {
+        System.out.println("Solar Tip: Consider upgrading to high-efficiency solar panels for better performance.");
+    }
+

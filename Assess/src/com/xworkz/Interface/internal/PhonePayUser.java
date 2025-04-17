@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void appTip() {
+        System.out.println("PhonePay Tip: Enable two-factor authentication for better security.");
+    }
+

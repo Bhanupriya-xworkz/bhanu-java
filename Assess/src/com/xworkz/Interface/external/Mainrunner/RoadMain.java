@@ -1,4 +1,5 @@
 package com.xworkz.Interface.external.Mainrunner;
+
 import com.xworkz.Interface.internal.Highway;
 import com.xworkz.Interface.internal.Road;
 
@@ -12,6 +13,7 @@ public class RoadMain {
             road1.openRoad();
             road2.showCondition();
             road3.closeRoad();
+            road.roadSafetyTip();
         }
     }
 

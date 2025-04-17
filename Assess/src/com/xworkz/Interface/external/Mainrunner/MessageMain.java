@@ -10,6 +10,7 @@ public class MessageMain {
             user1.sendMessage("Hello Bob! How are you?");
             user1.readMessage();
             user1.deleteMessage();
+            user.messageTip();
 
 
         }

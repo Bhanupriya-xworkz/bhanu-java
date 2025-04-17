@@ -12,6 +12,8 @@ import com.xworkz.Interface.internal.Student;
             student1.study();
             student2.attendClass();
             student3.submitAssignment();
+
+            student.studyTip();
         }
     }
 

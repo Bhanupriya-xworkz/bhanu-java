@@ -1,18 +1,17 @@
 package com.xworkz.Interface.external.Mainrunner;
+import com.xworkz.Interface.internal.Drone;
+import com.xworkz.Interface.internal.UAVDrone;
 
-import com.xworkz.FiveInterface.Internal.SmartPhone;
-
-public class Drone {
+public class Dronemain {
         public static void main(String[] args) {
-            UAVDrone Drone = new UAVDrone();
-            UAVDrone.powerOn();
-            UAVDrone.makeCall("123-456-7890");
-            UAVDrone.takePhoto();
-            UAVDrone.playMusic("Shape of You");
-            UAVDrone.browseInternet();
-            UAVDrone.downloadApp("Instagram");
-            UAVDrone.startNavigation("Central Park");
-            UAVDrone.powerOff();
+            UAVDrone drone1 = new UAVDrone();
+            UAVDrone drone2 = new UAVDrone();
+            UAVDrone drone3 = new UAVDrone();
+
+            UAVDrone.takeoff();
+            UAVDrone.fly();
+            UAVDrone.land();
+            Drone.maintenanceTips();
         }
     }
 

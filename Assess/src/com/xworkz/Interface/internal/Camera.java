@@ -4,5 +4,8 @@ package com.xworkz.Interface.internal;
         void focus();
         void clickPhoto();
         void preview();
+        default void cameraTips() {
+            System.out.println("General Camera Tip: Clean your lens regularly for sharp images.");
+        }
     }
 

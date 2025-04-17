@@ -10,6 +10,7 @@ public class FoodDeliveryMain {
             zomatoFood.orderFood("Paneer Butter Masala with Naan");
             zomatoFood.trackOrder();
             zomatoFood.deliverOrder();
+            ZomatoFood.deliveryTips();
         }
     }
 

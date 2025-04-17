@@ -18,4 +18,9 @@ public class CreditCard implements Payment {
     }
 }
 
+@Override
+public void paymentTip() {
+    System.out.println("UPI Tip: Use QR codes from trusted sources only.");
+}
+
 

@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void wakeUp();
         void performTask();
         void shutDown();
+
+        default void robotTip() {
+            System.out.println("General Tip: Regular maintenance ensures optimal robot performance.");
+        }
     }
 

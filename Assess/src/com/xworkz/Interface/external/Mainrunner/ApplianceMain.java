@@ -13,6 +13,7 @@ public class ApplianceMain {
             appliance1.turnOn();
             appliance2.operate();
             appliance3.turnOff();
+            myWasher.safetyTips();
         }
     }
 

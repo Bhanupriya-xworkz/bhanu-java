@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("You have visited this hotspot: New York City!");
         }
     }
+    @Override
+    public void hotspotTips() {
+        System.out.println("Wi-Fi Hotspot Tip: Turn off your hotspot when not in use to save battery and avoid security risks.");
+    }
 

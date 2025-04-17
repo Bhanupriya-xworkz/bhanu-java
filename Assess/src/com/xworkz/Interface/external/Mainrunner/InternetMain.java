@@ -12,6 +12,7 @@ public class InternetMain {
             net1.connect();
             net2.showSpeed();
             net3.disconnect();
+            Internet.internetSafetyTips();
         }
     }
 

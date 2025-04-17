@@ -13,6 +13,8 @@ public class ZomatoMain {
             zomato1.viewMenu();
             zomato2.placeOrder();
             zomato3.trackOrder();
+
+            Zomato.zomatoTips();
         }
     }
 

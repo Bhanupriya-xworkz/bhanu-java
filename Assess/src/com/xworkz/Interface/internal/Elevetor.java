@@ -17,3 +17,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void liftSafetyTips() {
+        System.out.println("Office Lift Tip: Stand clear of the doors and don’t overload the lift.");
+    }
+

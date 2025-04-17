@@ -4,5 +4,10 @@ package com.xworkz.Interface.internal;
         void turnOn();
         void setTemperature();
         void turnOff();
+
+        default void maintenanceTips() {
+            System.out.println("General Maintenance Tip: Clean filters every month.");
+        }
+
     }
 

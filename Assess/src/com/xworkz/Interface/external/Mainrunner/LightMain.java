@@ -1,6 +1,7 @@
 package com.xworkz.Interface.external.Mainrunner;
-import com.xworkz.Interface.internal.LightMain;
-import.xworkz.Interface.External.Light;
+
+import com.xworkz.Interface.internal.LEDLight;
+import com.xworkz.Interface.internal.Light;
 
 public class LightMain {
         public static void main(String[] args) {
@@ -12,6 +13,7 @@ public class LightMain {
             light1.turnOn();
             light2.adjustBrightness();
             light3.turnOff();
+            Light.lightingTips();
         }
     }
 

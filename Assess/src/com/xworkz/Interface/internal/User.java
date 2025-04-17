@@ -23,4 +23,8 @@ package com.xworkz.Interface.internal;
             System.out.println(username + " followed " + user);
         }
     }
+    @Override
+    public void instagramTips() {
+        System.out.println("Instagram Tip: Post consistently, and engage with followers to grow your audience.");
+    }
 

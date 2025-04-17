@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void openRoad();
         void closeRoad();
         void showCondition();
+
+        default void roadSafetyTip() {
+            System.out.println("General Tip: Obey traffic rules and wear seat belts at all times.");
+        }
     }
 

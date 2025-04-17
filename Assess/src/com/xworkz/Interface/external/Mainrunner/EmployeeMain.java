@@ -12,6 +12,7 @@ import com.xworkz.Interface.internal.Employee;
             emp1.work();
             emp2.takeBreak();
             emp3.report();
+            emp4.companyPolicy();
         }
     }
 

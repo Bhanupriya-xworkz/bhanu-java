@@ -13,6 +13,7 @@ public class GameMain {
             game1.start();
             game2.play();
             game3.end();
+            Game.gameTips();
         }
     }
 

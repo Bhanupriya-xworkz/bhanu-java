@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Road Condition: Smooth and well-maintained.");
         }
     }
+    @Override
+    public void roadSafetyTip() {
+        System.out.println("Highway Tip: Always maintain lane discipline and avoid overspeeding.");
+    }
 

@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void powerOn();
         void runProgram();
         void shutDown();
+
+        default void maintenanceTips() {
+            System.out.println("General Tip: Keep your computer dust-free and update software regularly.");
+        }
     }
 

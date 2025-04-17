@@ -17,3 +17,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void taskTip() {
+        System.out.println("Task Tip: Prioritize tasks by urgency and importance.");
+    }
+

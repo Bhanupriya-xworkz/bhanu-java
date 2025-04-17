@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void load();
         void unload();
         void checkCapacity();
+
+        default void tankerTip() {
+            System.out.println("General Tip: Always inspect valves and seals before loading.");
+        }
     }
 

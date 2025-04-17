@@ -13,6 +13,8 @@ public class PowerMain{
             power1.turnOn();
             power2.getPowerSource();
             power3.turnOff();
+
+            power.powerTip();
         }
     }
 

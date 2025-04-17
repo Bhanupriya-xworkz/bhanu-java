@@ -13,6 +13,8 @@ public class PackageDeliveryMain {
 
             System.out.println();
 
+            delivery.deliveryTip();
+
         }
     }
 

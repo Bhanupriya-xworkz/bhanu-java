@@ -13,6 +13,7 @@ public class BeerMain {
             beer1.pour();
             beer2.drink();
             beer3.getAlcoholContent();
+            myBeer.drinkResponsiblyMessage();
         }
     }
 

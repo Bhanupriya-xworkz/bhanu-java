@@ -12,6 +12,8 @@ public class PipelineMain {
             pipeline1.start();
             pipeline2.process();
             pipeline3.stop();
+
+            pipeline.pipelineTip();
         }
     }
 

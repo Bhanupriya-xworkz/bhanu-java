@@ -13,6 +13,8 @@ public class SteamingMain {
 
             System.out.println();
 
+            service.subscriptionTip();
+
         }
     }
 

@@ -16,4 +16,8 @@ package com.xworkz.Interface.internal;
             System.out.println("CeilingFan executing: turnOff");
         }
     }
+    @Override
+    public void maintenanceTips() {
+        System.out.println("Ceiling Fan Tip: Make sure the fan blades are balanced to avoid wobbling.");
+    }
 

@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Results have been declared.");
         }
     }
+    @Override
+    public void admissionTips() {
+        System.out.println("Engineering College Tip: Prepare for entrance exams like JEE and attend counseling rounds.");
+    }
 

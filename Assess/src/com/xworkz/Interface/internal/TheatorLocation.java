@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void theaterTip() {
+        System.out.println("Theater Tip: Book weekday matinees for cheaper tickets and smaller crowds.");
+    }
+

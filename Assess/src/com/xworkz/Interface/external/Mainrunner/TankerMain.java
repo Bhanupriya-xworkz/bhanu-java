@@ -13,6 +13,8 @@ public class TankerMain {
         tanker1.load();
         tanker2.unload();
         tanker3.checkCapacity();
+
+        tanker.tankerTip();
     }
 }
 

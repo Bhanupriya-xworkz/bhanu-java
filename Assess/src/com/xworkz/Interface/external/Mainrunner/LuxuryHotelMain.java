@@ -13,6 +13,8 @@ public class LuxuryHotelMain {
             hotel1.checkIn();
             hotel2.roomService();
             hotel3.checkOut();
+
+
         }
     }
 

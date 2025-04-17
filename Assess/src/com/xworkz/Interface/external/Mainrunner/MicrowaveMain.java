@@ -9,6 +9,9 @@ import com.xworkz.Interface.internal.MicrowaveOven;
             microwave1.setTimer();
             microwave1.heatFood();
             microwave1.stopHeating();
+
+            microwave.microwaveTip();
         }
     }
+
 

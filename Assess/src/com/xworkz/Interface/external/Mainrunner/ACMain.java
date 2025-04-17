@@ -9,6 +9,7 @@ import com.xworkz.Interface.internal.Airconditioner;
             ac1.turnOn();
             ac1.setTemperature();
             ac1.turnOff();
+            ac2.maintenanceTips();
         }
     }
 

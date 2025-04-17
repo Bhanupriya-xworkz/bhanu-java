@@ -13,6 +13,8 @@ public class SlipperMain {
             slipper1.wear();
             slipper2.remove();
             slipper3.clean();
+
+            slipper.slipperTip();
         }
     }
 

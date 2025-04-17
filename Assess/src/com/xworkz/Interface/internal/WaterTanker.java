@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Tanker capacity: 10,000 liters");
         }
     }
+    @Override
+    public void tankerTip() {
+        System.out.println("Oil Tanker Tip: Never exceed the maximum load limit to avoid accidents.");
+    }
 

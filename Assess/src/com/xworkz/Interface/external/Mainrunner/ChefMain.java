@@ -10,8 +10,7 @@ public class ChefMain {
             italian.prepareIngredients();
             italian.cookDish();
             italian.serveDish();
-
-            System.out.println();
+            italian.cookingTips();
 
         }
     }

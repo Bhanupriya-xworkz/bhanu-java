@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void studyTip() {
+        System.out.println("University Student Tip: Participate actively in class discussions to improve learning.");
+
+

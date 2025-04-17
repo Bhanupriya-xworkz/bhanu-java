@@ -21,4 +21,8 @@ package com.xworkz.Interface.internal;
             currentOrder = null;
         }
     }
+    @Override
+    public void deliveryTips() {
+        System.out.println("Food Delivery Tip: Keep the food in a hot box to ensure it reaches the customer warm.");
+    }
 

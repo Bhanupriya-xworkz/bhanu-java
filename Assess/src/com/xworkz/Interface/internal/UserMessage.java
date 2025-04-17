@@ -16,4 +16,9 @@ package com.xworkz.Interface.internal;
             System.out.println( " deleted a message.");
         }
     }
+    @Override
+    public void messageTip() {
+        System.out.println("Message Tip: Use end-to-end encrypted apps for private communication.");
+    }
+
 

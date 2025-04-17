@@ -13,6 +13,7 @@ public class SofaMain {
             sofa1.sitOn();
             sofa2.layDown();
             sofa3.clean();
+            sofa.furnitureTip();
         }
     }
 

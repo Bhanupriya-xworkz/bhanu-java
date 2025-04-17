@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void instrumentCareTip() {
+        System.out.println("Guitar Tip: Loosen the strings when storing for long periods.");
+    }
+

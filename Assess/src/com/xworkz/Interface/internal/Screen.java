@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void turnOn();
         void turnOff();
         void displayResolution();
+
+        default void screenTip() {
+            System.out.println("General Tip: Avoid using the screen for long hours to reduce eye strain.");
+        }
     }
 

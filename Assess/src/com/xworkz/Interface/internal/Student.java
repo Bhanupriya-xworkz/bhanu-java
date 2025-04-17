@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void study();
         void attendClass();
         void submitAssignment();
+
+        default void studyTip() {
+            System.out.println("General Tip: Make a study schedule and stick to it for better results.");
+        }
     }
 

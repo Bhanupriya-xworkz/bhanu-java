@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void plasticTip() {
+        System.out.println("Plastic Tip: Avoid single-use plastics to help protect the environment.");
+    }
+

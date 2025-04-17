@@ -13,6 +13,8 @@ public class RootMain {
             root1.setCoordinates();
             root2.showDetails();
             root3.markVisited();
+
+            root.rootTip();
         }
     }
 

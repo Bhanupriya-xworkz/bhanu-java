@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Developer submitted daily stand-up report.");
         }
     }
+    @Override
+    public void companyPolicy() {
+        System.out.println("Software Engineer Tip: Keep detailed documentation for all your code and projects.");
+    }
 

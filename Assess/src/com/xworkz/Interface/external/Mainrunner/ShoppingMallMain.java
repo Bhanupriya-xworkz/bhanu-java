@@ -13,6 +13,7 @@ public class ShoppingMallMain {
             mall1.openMall();
             mall2.showShops();
             mall3.closeMall();
+
         }
     }
 

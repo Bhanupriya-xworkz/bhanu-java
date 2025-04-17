@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void screenTip() {
+        System.out.println("LED Screen Tip: To prolong your screen's life, reduce brightness when not in use.");
+    }
+

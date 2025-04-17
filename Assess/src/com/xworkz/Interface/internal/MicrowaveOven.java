@@ -16,4 +16,8 @@ package com.xworkz.Interface.internal;
             System.out.println("MicrowaveOven executing: stopHeating");
         }
     }
+    @Override
+    public void microwaveTip() {
+        System.out.println("Smart Microwave Tip: Cover your food to avoid splatter and retain moisture.");
+    }
 

@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void zomatoTips() {
+        System.out.println("Zomato Tip: Use promo codes and wallet offers to save on your next order.");
+    }
+

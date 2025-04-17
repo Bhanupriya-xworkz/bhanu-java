@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void phoneTip() {
+        System.out.println("Phone Tip: Use screen time tools to manage digital wellbeing.");
+    }
+

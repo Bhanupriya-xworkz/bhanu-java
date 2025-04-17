@@ -17,4 +17,9 @@ package com.xworkz.Interface.internal;
             System.out.println("Showing targeted ads based on search query.");
         }
     }
+    @Override
+    public void tipsForSearching() {
+        System.out.println("Google Search Tip: Use quotation marks to search for an exact phrase.");
+    }
+}
 

@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Cover material: Hardbound leather.");
         }
     }
+    @Override
+    public void careInstructions() {
+        System.out.println("Phone Cover Tip: Wash silicone covers with mild soap once a week.");
+    }
 

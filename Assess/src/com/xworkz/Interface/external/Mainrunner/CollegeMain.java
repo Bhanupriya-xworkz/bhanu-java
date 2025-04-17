@@ -12,6 +12,7 @@ public class CollegeMain {
             college1.conductClasses();
             college2.holdExams();
             college3.declareResults();
+            College.admissionTips();
         }
     }
 

@@ -17,3 +17,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void zooTip() {
+        System.out.println("Zoo Tip: Provide enrichment activities to keep animals mentally stimulated.");
+    }
+

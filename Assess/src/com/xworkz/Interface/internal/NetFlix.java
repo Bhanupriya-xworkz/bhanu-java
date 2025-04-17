@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Logged out of Netflix.");
         }
     }
+    @Override
+    public void subscriptionTip() {
+        System.out.println("Streaming Tip: Download content for offline viewing and avoid buffering.");
+    }
 

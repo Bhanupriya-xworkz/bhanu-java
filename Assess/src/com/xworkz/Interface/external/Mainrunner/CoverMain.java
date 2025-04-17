@@ -13,6 +13,7 @@ public class CoverMain {
             cover1.open();
             cover2.showMaterial();
             cover3.close();
+            Cover.careInstructions();
         }
     }
 

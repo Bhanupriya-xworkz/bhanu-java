@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Closing the storybook. The end!");
         }
     }
+    @Override
+    public void readingTips() {
+        System.out.println("Novel Tip: Keep notes of plot twists and character names for mystery novels.");
+    }
 

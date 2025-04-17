@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Streaming audio via Bluetooth.");
         }
     }
+    @Override
+    public void connectionTips() {
+        System.out.println("Speaker Tip: Avoid obstacles and charge regularly for better Bluetooth stability.");
+    }
 

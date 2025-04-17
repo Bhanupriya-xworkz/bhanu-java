@@ -16,4 +16,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Adjusting LED light bulb brightness.");
         }
     }
+    @Override
+    public void energySavingTip() {
+        System.out.println("Smart LED Tip: Dim your lights when full brightness isn’t needed to save more energy.");
+    }
 

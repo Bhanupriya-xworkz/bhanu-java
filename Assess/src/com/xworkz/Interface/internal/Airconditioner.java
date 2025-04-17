@@ -14,6 +14,12 @@ package com.xworkz.Interface.internal;
         @Override
         public void turnOff() {
             System.out.println("AirConditioner executing: turnOff");
+
         }
+    }
+
+    @Override
+    public void maintenanceTips() {
+        System.out.println("Split AC Tip: Service the unit before summer and winter seasons.");
     }
 

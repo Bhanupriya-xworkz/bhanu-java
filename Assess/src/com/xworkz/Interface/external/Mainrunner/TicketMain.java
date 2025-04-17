@@ -1,4 +1,5 @@
 package com.xworkz.Interface.external.Mainrunner;
+
 import com.xworkz.Interface.internal.MovieTicket;
 import com.xworkz.Interface.internal.Ticket;
 
@@ -12,6 +13,10 @@ public class TicketMain {
             ticket1.book();
             ticket2.showDetails();
             ticket3.cancel();
+
+            ticket.ticketTip();
+
+
         }
     }
 

@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Alcohol Content: 5.5%");
         }
     }
+    @Override
+    public void drinkResponsiblyMessage() {
+        System.out.println("Craft Beer Tip: Sip slowly and enjoy the flavor profile. Know your limit!");
+    }
 

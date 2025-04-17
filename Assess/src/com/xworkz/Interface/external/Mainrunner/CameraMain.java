@@ -9,6 +9,7 @@ import com.xworkz.Interface.internal.Dslr;
             camera1.focus();
             camera1.clickPhoto();
             camera1.preview();
+            Camera.cameraTips();
         }
     }
 

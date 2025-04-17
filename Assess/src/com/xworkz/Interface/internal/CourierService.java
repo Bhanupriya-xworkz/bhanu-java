@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void deliveryTip() {
+        System.out.println("Courier Tip: Choose express delivery for important or time-sensitive packages.");
+    }
+

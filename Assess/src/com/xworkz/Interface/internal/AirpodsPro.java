@@ -15,6 +15,12 @@ package com.xworkz.Interface.internal;
         @Override
         public void disconnect() {
             System.out.println("AirPods Pro disconnected.");
+
         }
+    }
+
+    @Override
+    public void batteryTips() {
+        System.out.println("AirPods Pro Tip: Enable Optimized Battery Charging in settings for better battery health.");
     }
 

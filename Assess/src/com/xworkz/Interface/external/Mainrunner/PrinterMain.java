@@ -9,6 +9,8 @@ import com.xworkz.Interface.internal.InkjetPrinter;
             printer1.loadPaper();
             printer1.printDocument();
             printer1.ejectPaper();
+
+            power.powerTip();
         }
     }
 

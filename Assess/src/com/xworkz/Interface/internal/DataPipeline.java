@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void pipelineTip() {
+        System.out.println("Pipeline Tip: Always check for leaks during pipeline inspections to avoid wastage.");
+    }
+

@@ -9,6 +9,8 @@ import com.xworkz.Interface.internal.Speaker;;
             speaker1.connect();
             speaker1.playMusic();
             speaker1.disconnect();
+
+            speaker.soundTip();
         }
     }
 

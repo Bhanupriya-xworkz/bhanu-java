@@ -13,6 +13,8 @@ public class ScreenMain {
         screen1.turnOn();
         screen2.displayResolution();
         screen3.turnOff();
+
+        screen.screenTip();
     }
 }
 

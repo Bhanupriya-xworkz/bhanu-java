@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void signalTip() {
+        System.out.println("Traffic Signal Tip: Never speed up on a yellow light — slow down and prepare to stop.");
+    }
+

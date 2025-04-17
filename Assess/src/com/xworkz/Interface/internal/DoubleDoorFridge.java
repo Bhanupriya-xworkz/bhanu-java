@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Auto-defrosting the freezer compartment.");
         }
     }
+    @Override
+    public void maintenanceTips() {
+        System.out.println("Smart Fridge Tip: Keep the door closed to maintain energy efficiency and check for leaks around the seals.");
+    }
 

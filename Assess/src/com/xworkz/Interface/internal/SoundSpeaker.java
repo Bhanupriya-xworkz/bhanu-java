@@ -17,3 +17,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void soundTip() {
+        System.out.println("Bluetooth Speaker Tip: Keep the speaker close to your device for better connectivity.");
+    }
+

@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Gold purity: 24 Karat.");
         }
     }
+    @Override
+    public void investmentTips() {
+        System.out.println("Gold Coin Tip: Buy gold coins from trusted dealers and keep them in a safe place.");
+    }
 

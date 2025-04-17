@@ -17,3 +17,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void powerTip() {
+        System.out.println("Power Tip: Consider using energy-efficient appliances to reduce power consumption.");
+    }
+

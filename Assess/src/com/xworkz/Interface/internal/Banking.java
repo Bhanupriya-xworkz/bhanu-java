@@ -4,5 +4,8 @@ package com.xworkz.Interface.internal;
         void deposit(double amount);
         void withdraw(double amount);
         void checkBalance();
+        default void fraudPreventionTips() {
+            System.out.println("General Tip: Never share your OTP or PIN with anyone.");
+        }
     }
 

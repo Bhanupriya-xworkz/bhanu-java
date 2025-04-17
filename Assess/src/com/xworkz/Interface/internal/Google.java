@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void search();
         void viewResults();
         void showAdvertisements();
+
+        default void tipsForSearching() {
+            System.out.println("General Tip: Use specific keywords and operators for more accurate search results.");
+        }
     }
 

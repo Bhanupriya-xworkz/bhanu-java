@@ -19,3 +19,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void libraryTips() {
+        System.out.println("Library Tip: Use the online catalog to reserve books in advance and avoid waiting.");
+    }
+

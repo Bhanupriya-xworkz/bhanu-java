@@ -12,6 +12,7 @@ public class GoogleMain {
             google1.search();
             google2.viewResults();
             google3.showAdvertisements();
+            Google.tipsForSearching();
         }
     }
 

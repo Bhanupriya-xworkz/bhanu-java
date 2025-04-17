@@ -18,3 +18,7 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void playerTip() {
+        System.out.println("Music Player Tip: Download your favorite songs for offline listening.");
+    }

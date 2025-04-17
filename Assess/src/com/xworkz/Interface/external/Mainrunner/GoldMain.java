@@ -13,6 +13,7 @@ public class GoldMain {
             gold1.melt();
             gold2.polish();
             gold3.checkPurity();
+            Gold.investmentTips();
         }
     }
 

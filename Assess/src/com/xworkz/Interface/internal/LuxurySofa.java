@@ -18,3 +18,8 @@ package com.xworkz.Interface.internal;
         }
     }
 
+    @Override
+    public void furnitureTip() {
+        System.out.println("Sofa Tip: Use fabric protectors to prevent stains on your sofa.");
+    }
+

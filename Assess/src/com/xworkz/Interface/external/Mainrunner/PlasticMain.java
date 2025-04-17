@@ -12,6 +12,8 @@ public class PlasticMain {
             plastic1.melt();
             plastic2.showType();
             plastic3.recycle();
+
+            plastic.plasticTip();
         }
     }
 

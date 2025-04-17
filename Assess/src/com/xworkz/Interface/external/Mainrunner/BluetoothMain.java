@@ -12,6 +12,7 @@ public class BluetoothMain {
             bt1.pairDevice();
             bt2.transferData();
             bt3.unpairDevice();
+            MySpeaker.connectionTips();
         }
     }
 

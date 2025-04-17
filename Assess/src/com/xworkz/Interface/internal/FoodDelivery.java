@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void orderFood(String foodItem);
         void trackOrder();
         void deliverOrder();
+
+        default void deliveryTips() {
+            System.out.println("General Tip: Always check the delivery address before dispatching.");
+        }
     }
 

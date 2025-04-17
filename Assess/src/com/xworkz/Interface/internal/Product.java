@@ -4,5 +4,9 @@ package com.xworkz.Interface.internal;
         void displayProductDetails();
         void applyDiscount();
         void checkAvailability();
+
+        default void productTip() {
+            System.out.println("General Tip: Always check the product reviews before making a purchase.");
+        }
     }
 

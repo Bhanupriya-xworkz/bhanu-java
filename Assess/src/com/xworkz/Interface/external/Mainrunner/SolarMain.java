@@ -13,6 +13,8 @@ public class SolarMain {
             solar1.generatePower();
             solar2.storeEnergy();
             solar3.showStatus();
+
+            solarSystem.solarTip();
         }
     }
 

@@ -15,6 +15,12 @@ package com.xworkz.Interface.internal;
         @Override
         public void markVisited() {
             System.out.println("You have visited Waikiki Beach in Honolulu!");
+
+            @Override
+            public void travelTips(){
+                System.out.println("NYC Travel Tip: Use the subway for fast travel and try local street food");
+
+            }
         }
     }
 

@@ -9,6 +9,8 @@ public class MediaPlayerMain {
             player.play();
             player.pause();
             player.stop();
+
+            player.mediaPlayerTip();
         }
     }
 

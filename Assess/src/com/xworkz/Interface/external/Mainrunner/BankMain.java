@@ -9,6 +9,7 @@ import com.xworkz.Interface.internal.OnlineBanking;
             bank1.login();
             bank1.transferMoney();
             bank1.logout();
+            myBank.customerSupport();
         }
     }
 

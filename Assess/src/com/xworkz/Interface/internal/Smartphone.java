@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Browsing the internet...");
         }
     }
+    @Override
+    public void maintenanceTips() {
+        System.out.println("Smartphone Tip: Keep your phone's storage optimized and use a screen protector.");
+    }
 

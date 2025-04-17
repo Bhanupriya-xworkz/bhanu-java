@@ -13,6 +13,8 @@ public class TowerMain {
             tower1.transmitSignal();
             tower2.receiveSignal();
             tower3.towerStatus();
+
+            ticket.ticketTip();
         }
     }
 

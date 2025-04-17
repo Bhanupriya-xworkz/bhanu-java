@@ -9,6 +9,7 @@ import com.xworkz.Interface.internal.Elevetor;
             lift1.callLift();
             lift1.moveToFloor();
             lift1.openDoor();
+            Lift.liftSafetyTips();
         }
     }
 

@@ -10,6 +10,8 @@ public class TaxiMain {
             ola.bookRide("Majestic", "Electronic City");
             ola.trackRide();
             ola.cancelRide();
+
+            taxi.taxiTip();
         }
     }
 

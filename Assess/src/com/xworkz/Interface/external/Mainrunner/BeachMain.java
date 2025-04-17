@@ -1,5 +1,4 @@
 package com.xworkz.Interface.external.Mainrunner;
-import com.xworkz.Interface.internal.Beach;
 import com.xworkz.Interface.internal.BeachLocation;
 
 public class BeachMain {
@@ -11,6 +10,7 @@ public class BeachMain {
             beach1.setCoordinates();
             beach2.showDetails();
             beach3.markVisited();
+
         }
     }
 

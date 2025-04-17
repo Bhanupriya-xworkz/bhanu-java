@@ -17,4 +17,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Shops: Clothing, Electronics, Food Court, Bookstore.");
         }
     }
+    @Override
+    public void mallTip() {
+        System.out.println("Mall Tip: Use the mall's app for real-time updates on sales and offers.");
+    }
 

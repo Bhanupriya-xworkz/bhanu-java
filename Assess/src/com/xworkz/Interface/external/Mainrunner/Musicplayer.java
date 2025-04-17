@@ -11,6 +11,8 @@ import com.xworkz.Interface.internal.Spotifyplayer;
             player1.play();
             player2.pause();
             player3.stop();
+
+            player.playerTip();
         }
     }
 

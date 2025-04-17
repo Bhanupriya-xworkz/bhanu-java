@@ -16,4 +16,8 @@ package com.xworkz.Interface.internal;
             System.out.println("Laptop executing: shutDown");
         }
     }
+    @Override
+    public void maintenanceTips() {
+        System.out.println("Gaming PC Tip: Regularly clean GPU fans and monitor temperatures while gaming.");
+    }
 

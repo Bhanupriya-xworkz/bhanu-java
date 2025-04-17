@@ -12,6 +12,8 @@ public class WatchMain {
             watch1.showTime();
             watch2.showDate();
             watch3.showAlarm();
+
+            watch3.watchCareTip();
         }
     }
 

@@ -12,6 +12,8 @@ import com.xworkz.Interface.internal.SmartphoneProduct;
             product1.displayProductDetails();
             product2.applyDiscount();
             product3.checkAvailability();
+
+            product.productTip();
         }
     }
 

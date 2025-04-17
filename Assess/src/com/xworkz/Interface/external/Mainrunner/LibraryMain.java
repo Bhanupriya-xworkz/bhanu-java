@@ -12,6 +12,8 @@ public class LibraryMain {
             library.returnBook("Java Programming");
 
             library.searchBook("Data Structures");
+
+            library.libraryTips();
         }
     }
 
